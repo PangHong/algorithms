@@ -18,7 +18,7 @@ public class binomial {
 	}
 
 	public static void main(String[] args) {
-		StdOut.println(binomial_distribution(10,1,.5));
+		StdOut.println(binomial_distribution(10,3,.5));
 		double error = 1e-15;
 		print_test_case((.18 - binomial_distribution(2,1,.1)) < error);
 	}
